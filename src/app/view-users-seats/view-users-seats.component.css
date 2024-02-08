@@ -1,0 +1,16 @@
+.users-seats-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .users-seats-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .users-seats-container p {
+    margin-bottom: 5px;
+  }
+  

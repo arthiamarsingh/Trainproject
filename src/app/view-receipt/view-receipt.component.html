@@ -1,0 +1,15 @@
+<div *ngIf="receiptDetails" class="receipt-container">
+    <h2>Receipt Details</h2>
+    <div>
+      <p><strong>From:</strong> {{ receiptDetails?.from }}</p>
+      <p><strong>To:</strong> {{ receiptDetails?.to }}</p>
+      <p><strong>User:</strong> {{ receiptDetails?.user?.firstName }} {{ receiptDetails?.user?.lastName }}</p>
+      <p><strong>Email:</strong> {{ receiptDetails?.user?.email }}</p>
+      <p><strong>Price Paid:</strong> ${{ receiptDetails?.price }}</p>
+
+    </div>
+  </div>
+  <div *ngIf="!receiptDetails" class="no-receipt-message">
+    <p>No receipt details available.</p>
+  </div>
+  

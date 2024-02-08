@@ -1,0 +1,14 @@
+<div>
+    <h2>Remove User</h2>
+    <div *ngIf="users.length > 0">
+      <label>Select User:</label>
+      <select [(ngModel)]="selectedUser">
+        <option *ngFor="let user of users" [value]="user">{{ user.firstName }} {{ user.lastName }}</option>
+      </select>                  
+      <button (click)="removeUser()">Remove User</button>
+    </div>
+    <div *ngIf="users.length === 0">
+      <p>No users available.</p>
+    </div>
+  </div>
+  

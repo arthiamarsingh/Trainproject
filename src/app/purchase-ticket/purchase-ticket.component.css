@@ -1,0 +1,46 @@
+.purchase-ticket {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .purchase-ticket form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .purchase-ticket form .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .purchase-ticket form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .purchase-ticket form input[type="text"],
+  .purchase-ticket form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .purchase-ticket form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .purchase-ticket form button:hover {
+    background-color: #0056b3;
+  }
+  

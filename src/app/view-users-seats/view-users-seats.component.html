@@ -1,0 +1,5 @@
+<div *ngFor="let userAndSeat of usersAndSeats | keyvalue">
+    <p>User: {{ userAndSeat.key.firstName }} {{ userAndSeat.key.lastName }}</p>
+    <p>Seat: {{ userAndSeat.value }}</p>
+  </div>
+  

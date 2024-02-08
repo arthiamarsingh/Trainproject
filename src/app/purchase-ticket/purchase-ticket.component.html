@@ -1,0 +1,27 @@
+<div class="purchase-ticket">
+    <h2>Purchase Ticket</h2>
+    <form (ngSubmit)="purchaseTicket()">
+      <div class="form-group">
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" [(ngModel)]="ticketDetails.from" required>
+      </div>
+      <div class="form-group">
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" [(ngModel)]="ticketDetails.to" required>
+      </div>
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" [(ngModel)]="ticketDetails.firstName" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" [(ngModel)]="ticketDetails.lastName" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" [(ngModel)]="ticketDetails.email" required>
+      </div>
+      <button type="submit">Purchase Ticket</button>
+    </form>
+  </div>
+  

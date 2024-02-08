@@ -1,0 +1,11 @@
+.receipt-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .no-receipt-message {
+    font-style: italic;
+    color: #999;
+  }
+  
